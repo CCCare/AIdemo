@@ -5,7 +5,7 @@ from langchain_openai import ChatOpenAI
 from browser_use import Agent
 
 # from zhipuai import ZhipuAI
-# client = ZhipuAI(api_key="e8bb5aaa0caa469f959cb9f073cb12dc.BA5uHVCQUEJtjUS5")  # 请填写您自己的APIKey
+# client = ZhipuAI(api_key="xxxxxxxxxxxxxx")  # 请填写您自己的APIKey
 # response = client.chat.completions.create(
 #     model="glm-4-plus",  # 请填写您要调用的模型名称
 #     messages=[
@@ -23,7 +23,7 @@ from browser_use import Agent
 llm = ChatOpenAI(
         model='glm-4-plus',
         base_url="https://open.bigmodel.cn/api/paas/v4/chat/completions",
-        api_key='e8bb5aaa0caa469f959cb9f073cb12dc.BA5uHVCQUEJtjUS5'  # 替换为实际API密钥
+        api_key='xxxxxxxxxxxxxx'  # 替换为实际API密钥
 )
 
 async def main():
