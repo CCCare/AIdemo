@@ -12,7 +12,7 @@ from langchain.memory import ConversationBufferMemory
 llm = ChatOpenAI(
     temperature=0.95,
     model="glm-4",
-    openai_api_key="e8bb5aaa0caa469f959cb9f073cb12dc.BA5uHVCQUEJtjUS5",
+    openai_api_key="xxxxxx",
     openai_api_base="https://open.bigmodel.cn/api/paas/v4/"
 )
 prompt = ChatPromptTemplate(
