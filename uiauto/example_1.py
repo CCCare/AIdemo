@@ -27,8 +27,8 @@ llm = ChatOpenAI(
     temperature=0.95,
     model='glm-4',
     # base_url="https://open.bigmodel.cn/api/paas/v4/chat/completions",
-    # api_key='xxxxxxxxxxxxxx'  # 替换为实际API密钥
-    openai_api_key="xxxxxxxxxxxxxx",
+    # api_key='e8bb5aaa0caa469f959cb9f073cb12dc.BA5uHVCQUEJtjUS5'  # 替换为实际API密钥
+    openai_api_key="e8bb5aaa0caa469f959cb9f073cb12dc.BA5uHVCQUEJtjUS5",
     # openai_api_base="https://open.bigmodel.cn/api/paas/v4/chat/completions"
     openai_api_base="https://open.bigmodel.cn/api/paas/v4/"
 )
